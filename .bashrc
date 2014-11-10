@@ -173,7 +173,7 @@ export LC_ALL=POSIX
 if [ -s ~/.nvm/nvm.sh ]; then
     NVM_DIR=~/.nvm
     source ~/.nvm/nvm.sh
-    nvm use v0.11.13 &> /dev/null # silence nvm use; needed for rsync
+    nvm use stable &> /dev/null # silence nvm use; needed for rsync
 fi
 
 ## ------------------------------
